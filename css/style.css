@@ -1,0 +1,115 @@
+/* Color Theme Swatches in Hex*/
+.forest-1-hex { color: #365902; }
+.forest-2-hex { color: #172601; }
+.forest-3-hex { color: #78A614; }
+.forest-4-hex { color: #EDF2C2; }
+.forest-5-hex { color: #ECF23D; }
+
+/* Color Theme Swatches in RGBA */
+.forest-1-rgba { color: rgba(54, 89, 1, 1); }
+.forest-2-rgba { color: rgba(23, 38, 0, 1); }
+.forest-3-rgba { color: rgba(119, 165, 19, 1); }
+.forest-4-rgba { color: rgba(236, 242, 193, 1); }
+.forest-5-rgba { color: rgba(236, 242, 60, 1); }
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: #EDF2C2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+.navbar img{
+    width: 200px;
+}
+
+h1{
+    background-color: #596208;
+    border-radius: 8px;
+    display: inline-block;
+    color: #EDF2C2;
+}
+
+nav ul li{
+    font-size: 1.5rem;
+}
+
+    nav ul li a{
+        color: #78A614 !important;
+
+    }
+
+.bg-darkGray{
+    background-color: #545454;
+}
+
+.bg-darkGreen{
+    background-color: rgba(54, 89, 1, .95) ;
+}
+
+.bg-soDarkGreen{
+    background-color: rgba(23, 38, 0, 1);
+}
+
+h2,h3{
+    color: rgba(54, 89, 1, 1);
+}
+
+.card-title{
+    color: #EDF2C2;
+}
+
+.card-text{
+    color: #EDF2C2;
+    font-size: 1.5rem;
+}
+
+.w-98{
+    width: 98%;
+}
+
+.card-border{
+    border-radius: 10px;
+}
+
+
+label, input{
+    font-size: 1.1rem;
+}
+
+.btn-green{
+    background-color: #365902;
+    color: #EDF2C2;
+}
+
+.btn-green:hover{
+    background-color: #EDF2C2;
+}
+
+article{
+    /* border: solid 3px #172601; */
+
+}
+
+.img-footer{
+    width: 120px;
+}
+
+@media (max-width: 992px) {
+    .texto{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 215px) and (max-width: 350px) {
+    .navbar img{
+        width: 140px;
+    }
+}
+
+@media (min-width: 215px) and (max-width: 400px){
+    .img-footer{
+        width: 70px;
+    }
+}
